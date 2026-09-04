@@ -1,0 +1,40 @@
+:root {
+    --dark: #121212;
+    --light: #F1FAEE;
+    --gray: #b4aaa3;
+    --text: Poppins;
+    --Off-White: #fff3ef
+}
+
+* {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+.inicial {
+    padding: 40px;
+}
+
+.inicial-container {
+    max-width: 1140px;
+    margin: auto;
+    background-color: var(--dark);
+    padding: 70px 60px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-areas: "hero hero" "texto glr";
+}
+
+.hero{
+    
+}
